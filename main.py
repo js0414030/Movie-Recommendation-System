@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 
 # Load the MovieLens dataset
-ratings_df = pd.read_csv(r"C:\Users\HP\Downloads\ml-latest-small\ml-latest-small\ratings.csv")
-movies_df = pd.read_csv(r"C:\Users\HP\Downloads\ml-latest-small\ml-latest-small\movies.csv")
+ratings_df = pd.read_csv("C:\\Users\\HP\\Downloads\\ml-latest-small\\ml-latest-small\\ratings.csv")
+movies_df = pd.read_csv("C:\\Users\\HP\Downloads\\ml-latest-small\\ml-latest-small\\movies.csv")
 
 
 # Explore the data
